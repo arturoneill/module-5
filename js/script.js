@@ -118,7 +118,7 @@ function buildAndShowHomeHTML(categories) {
       // it into the home html snippet.
       //
       // var homeHtmlToInsertIntoMainPage = ....
-      var bet = "'" + "chosenCategoryShortName"+ "'";
+      var bet = "'" + chosenCategoryShortName+ "'";
        
        var homeHtmlToInsertIntoMainPage = insertProperty( homeHtml, "randomCategoryShortName", bet );
 
